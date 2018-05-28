@@ -1,36 +1,24 @@
-# Responsive side menu starter project
+### Site criado com base no projeto Base Scroll suave
+Desenvolvido por Habemus.
 
-A starter HTML5+CSS3+JS website project with a collapsible responsive side menu and smooth scroll transition among sections.
+# Scroll suave - projeto base
 
-## What is a starter project?
+Projeto base de página web HTML5 + CSS3 + JS com menu lateral responsivo e scroll suave (smooth scroll) entre as seções da página.
 
-A starter project is a project with the basic file structure and some components readily integrated. They are great for starting your own website.
 
-## What's inside 'smooth scroll'?
+## O que é um projeto base?
 
-This starter project comes with a menu that adequates itself to the screen width of the device in which the website was opened.
+Um projeto base é um projeto com a estrutura básica de arquivos e alguns componentes já integrados, prontos para você personalizar como quiser. São ótimos pontos de partida para começar seu website.
 
-Besides, when clicking on menu links, the view slides down and up smoothly. Menu also supports external links.
+## O que o projeto 'scroll suave' oferece?
+
+Este projeto base já vem pronto com o funcionamento de um menu que se adequa ao tamanho da tela do dispositivo em que o website foi acessado, com as interações de abertura e fechamento do menu definidas.
+
+Além disso, os links do menu direcionam para seções correspondentes ao longo da página, com  animações de transição suave no scroll. O menu também suporta links externos.
 
 ![preview](https://github.com/habemus/starter-smooth-scroll/raw/master/preview.gif "Preview")
 
-## File structure
-
-```
-starter-smooth-scroll/
-├── img/                          -- directory containing all images
-│   ├── logo.png
-│   └── menu-trigger-images.svg
-├── scripts/
-│   └── header.js                 -- responsive header interactions
-├── styles/
-│   ├── header.css                -- responsive header styles
-│   ├── reset.css                 -- browser resets
-│   └── style.css                 -- main stylesheet
-└── index.html                    -- homepage
-```
-
-## Developed by
+## Desenvolvido por
 
 **Habemus**
 
