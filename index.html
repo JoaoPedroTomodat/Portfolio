@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>João Pedro dos Santos</title>
+
+  <!--
+    Ensure that mobile browsers render the viewport size
+    appropriately.
+
+    https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+  <!--
+    Load a custom webfont using Google Fonts
+    to see fonts available, go to https://fonts.google.com
+
+    This link imports the font-family 'Oswald' at weights
+    400 (regular) and 700 (bold).
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+  <!-- Impormain-headert the project's stylesheets -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header id="main-header">
+    <a id="logo-anchor" href="#">
+      <h1>João Pedro dos Santos</h1>
+    </a>
+    <nav id="main-nav">
+      <!-- Element used to open and close the side menu -->
+      <button id="menu-trigger" type="button"></button>
+
+      <ul>
+        <li>
+          <a href="#content-1" style="color:#5F9EA0">
+            Sobre
+          </a>
+        </li>
+        <li>
+          <a href="#content-2">
+            Trabalhos
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="menu-overlay"></div>
+  </header>
+  <section id="main-content">
+
+    <!--
+      Content placeholder
+      (simulate content that overflows height of window)
+    -->
+    <section id="content-1">
+      <h1>Desenvolvedor Front-End</h1>
+      <h3>Junior</h3>
+    </section>
+
+    <section id="content-2">
+        <h1 style="font-size: 5em; text-align: center">Trabalhos</h1>
+      <article class="items">
+        <article class="item">
+          <a href="https://ww2.tomodat.com.br" target="_blank"><img class="tomodat" src="img/logo.png"></a>
+          <p>Fazendo o desenvolvimento front-end e manutenções para o software da empresa.</p>
+        </article>
+
+        <article class="item">
+          <a href="https://www.uniguacu.edu.br/cursos/sistemas-de-informacao/" target="_blank"><img class="sistemas" src="img/sistemas.png"></a>
+          <p>Cursando a graduação de Sistemas da Informação no 1º período na instituição.</p>
+        </article>
+      </article>
+    </section>
+  
+        <ul class="icones-sociais">
+          <li>
+              <a href="https://www.facebook.com/joaopedro.santos.545" target="top" class="facebook">
+                  Facebook
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/JoaoPedroTomodat" target="top" class="github">
+                  Github
+              </a>
+          </li>
+          <li>
+              <a href="https://twitter.com/diamondDogzs" target="top" class="twitter">
+                  Twitter
+              </a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-dos-santos-253779156/" target="top" class="linkedin">
+                  LinkedIn
+              </a>
+          </li>
+        </ul>
+    </section>
+
+  <!-- jQuery version 3.1.1 uncompressed version -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+
+  <!-- Load the script that defines the header interactions -->
+  <script src="scripts/header.js"></script>
+</body>
+</html>

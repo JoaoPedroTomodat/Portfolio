@@ -1,0 +1,122 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+#main-content section { /* Principal section */
+  height: 70vh;
+  color: #E0FFFF;
+  box-shadow: inset 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+}
+#main-content section:first-child {
+  box-shadow: none;
+}
+
+#content-1 {
+  background-color: #4d4844;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+}
+
+#content-1 h1{
+  font-size: 2cm;
+  text-align: center;
+  padding-top: 100px;
+  color: #E0FFFF;
+}
+
+#content-1 h3{
+  font-size: 2em;
+  text-align: center;
+  padding-top: 100px;
+  color: #E0FFFF;
+}
+
+#content-2 {
+  background-color: #528B8B;
+}
+
+
+
+.items {
+	display: flex;  
+	width: calc(100% + 2em);  
+	margin: -2em 0 0 -2em;  
+}
+
+
+
+ 
+.item {
+	padding: 50px 3em 50px 3em;  
+	background-color: #ffffff;  
+	border-radius: 4px;  
+	text-align: center;  
+	margin: 50px 0 0 2em;  
+  width: 100%;
+  font-size: 25px;
+  color: black;
+}
+
+.tomodat{
+  padding-bottom: 50px;
+  width: 600px;
+}
+.sistemas{
+  width: 200px;
+  margin-top: -13px;
+  padding-bottom: 15px
+}
+
+.icones-sociais{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+ 
+.icones-sociais li {
+    display: inline-block;
+}
+ 
+.icones-sociais a {
+    width: 64px;
+    height: 64px;
+    display: block;
+    text-indent: -99999px;
+}
+ 
+.facebook {
+    background-image: url(../img/facebook.svg);
+}
+ 
+.github {
+    background-image: url(../img/github.svg);
+}
+ 
+.twitter {
+     background-image: url(../img/if_4_940956.svg);
+}
+ 
+.linkedin {
+    background-image: url(../img/linkedin.svg);
+}
+
+/**
+ * Styles used only by large devices
+ */
+@media (min-width: 613px) {
+  #main-content section {
+    padding: 100px 40px;
+  }
+}
+
+/**
+ * Styles used only by small devices
+ * 612px is an appropriate breakpoint for this project,
+ * it may vary acording to interactions and usability
+ */
+@media (max-width: 612px) {
+  #main-content section {
+    padding: 100px 20px;
+  }
+}
